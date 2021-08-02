@@ -1,0 +1,145 @@
+header .carousel {
+	height: 100vh;
+}
+header .carousel-item {
+	background: grey center/cover no-repeat fixed;
+}
+header .indicator-item {
+	width: 15px !important;
+	height: 15px !important;
+}
+header .carousel-fixed-item {
+	bottom: 50vh !important;
+	transform: translate(0,50%);
+}
+header .navbar-fixed {
+	position: fixed !important;
+}
+header .input-field { margin: 0 30px; }
+#search { padding: 7px 0 0 30px; }
+.sidenav .my-icons a,
+.sidenav .my-icons li  {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+.sidenav .my-icons i {
+	margin:  0 0 0 15px;
+}
+.my-upper {
+	text-transform: uppercase;
+}
+.my-capitalize{text-transform: capitalize;}
+.my-trn-btn {
+	border: 1px solid #fff;
+	border-radius: 20px;
+	padding: 0 75px;
+}
+.my-icons i {
+	font-size: 1em;
+}
+.my-objecfit{object-fit: fill;}
+.my-img{height: 100%; object-fit: cover;}
+.my-no-border{border: 0;}
+.my-hover:hover svg path, 
+.my-hover:hover svg text, 
+.my-hover:hover {
+	stroke: black;
+	color: black;
+}
+.tabs .tab a{color:#2d3f51; font-weight: bold; font-size: .9em;}
+.tabs .tab a:hover,
+.tabs .tab .active{
+	color: #c8342d !important;
+	background: none !important;
+	border: 1px solid #c8342d;
+	border-radius: 3px;	
+	
+}
+h2{font: bold 2.2em Verdana;margin: 0 0 50px 0;}
+.tabs .indicator{
+    background-color: transparent !important;/*your color*/
+}
+h4{font: bold .8em Verdana;}
+h5{
+	font: bold .8em Verdana;
+}
+text{font-weight: 100;}
+main section{padding: 80px 0;}
+#works1 h3, #works1 a{
+	font-size:.9em;
+	margin: 0;
+	color: #2d3f51;
+	font-weight: bold;
+}
+#works1 .card-content p{padding: 20px 0;}
+#works1 p{font-size: .9em;}
+#works2 .center {margin: 0 0 30px 0;}
+#process{background: #2d3f51;}
+#process svg{fill: none;stroke: #fff;}
+#services svg{fill: none;stroke: red;}
+#process svg:hover{stroke: red;}
+#services svg:hover{stroke: black;}
+#process .center, #services .center {margin: 0 0 80px 0;}
+#services .row .col{padding: 50px 40px;}
+#testimonials {background: url('img/about-bg.jpg') center/cover no-repeat;}
+#testimonials h2{font-weight: normal;}
+#testimonials p{margin: 0 !important; line-height: 2;padding: 0 0 20px 0;}
+#testimonials .carousel .carousel-item{min-height: 450px;}
+#smile{margin: 0 0 20px 0;}
+.my-client-img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 0 auto 25px auto;
+}
+#client1{background: url('img/john.jpg') center/cover no-repeat;}
+#client2{background: url('img/gabriel.jpg') center/cover no-repeat;}
+#client3{background: url('img/krisna.jpg') center/cover no-repeat;}
+.my-hover p{font-size: .9em}
+.my-hover i{font-size: 2em}
+.test{
+	width: 100px;
+	height: 100px;
+	color: red;
+	margin: auto;
+}
+.my-svg{
+	width: 100px;
+	height: 100px;
+	background: url('octagon-red.svg') center/cover no-repeat;
+	text-align: center;
+	padding: 40px 0;
+	
+}
+
+.my-hover:hover .my-svg
+{
+	color: black;
+	background: url('octagon.svg') center/cover  no-repeat;
+}
+h6{font-size: .9em;font-weight: bold; }
+.my-card-img{height: 400px; background: url('img/mockup.jpg') center/cover no-repeat;}
+.my-card{padding: 20px; margin: 10px 0; color: #2d3f51;}
+.my-card a{font: bold .9em Verdana; color: #2d3f51;}
+.my-card span{font: bold .9em Verdana; display: inline-block;}
+footer{padding: 85px 0; background: #28252a;}
+footer ul li{margin: 0 0 20px 0;}
+footer ul a{color: #fff; text-transform: uppercase;}
+.footer-icons a{display: inline-block; margin: 5px; color: #782d2c;}
+.footer-icons a:hover{ color: #c8342d;}
+@media only screen and (min-width: 768px) {
+	.my-block{ padding: 150px 0 !important;}
+	#test1 .card{margin: 1.5rem 0 0 0 !important;}
+	.cap{padding: 0 .75rem 0 0 !important;}
+	.cap1{padding: 0 0 0 .75rem !important;}
+	footer ul li{display: inline-block; margin: 30px;}
+	
+}
+@media only screen and (max-width: 600px) { 
+	h1 { font-size: 2.5rem; }
+	.my-card-padding{padding: 24px 12px !important;}
+	h2{font-size: 1.5em;}
+}
+
+
